@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:orientation="vertical"
+    android:background="@color/black">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        >
+        <TextView
+            android:id="@+id/cancel_new_pics"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:textColor="@android:color/darker_gray"
+            android:layout_alignParentLeft="true"
+            android:visibility="gone"/>
+        <TextView
+            android:id="@+id/valid_new_pics"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ok"
+            android:textColor="@color/metalicBlue"
+            android:layout_alignParentRight="true"/>
+        <ImageView
+            android:id="@+id/current_pics"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/pics"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"/>
+
+        <View style="@style/Divider"
+            android:id="@+id/current_pics_separator"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/current_pics"/>
+
+        <TextView
+            android:id="@+id/gallery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/all_photos"
+            android:textColor="@color/metalicBlue"
+            android:layout_below="@id/current_pics_separator"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:id="@+id/suggestions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/suggestions"
+            android:textColor="@color/white"
+            android:layout_below="@id/current_pics_separator"
+            android:layout_marginTop="10dp"/>
+        <ImageView
+            android:id="@+id/suggestion_pics"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/pics"
+            android:layout_below="@id/suggestions"
+            android:layout_marginTop="25dp"
+            android:layout_toRightOf="@id/camera"
+            android:layout_marginLeft="5dp"
+            android:padding="5dp"
+            android:background="@drawable/layout_rounded_bg"/>
+        <ImageView
+            android:id="@+id/camera"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/camera"
+            android:layout_below="@+id/suggestions"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/layout_rounded_bg"
+            android:outlineAmbientShadowColor="@android:color/holo_blue_dark"
+            />
+        <ImageView
+            android:id="@+id/back_pics"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/pics"
+            android:layout_below="@id/suggestions"
+            android:layout_marginTop="25dp"
+            android:layout_toRightOf="@id/suggestion_pics"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/layout_rounded_bg"
+            android:padding="5dp"
+            android:visibility="gone"/>
+        <TextView
+            android:id="@+id/emoji"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/emoji"
+            android:textColor="@color/white"
+            android:layout_below="@+id/camera"
+            android:layout_marginTop="30dp"/>
+        <GridView
+            android:id="@+id/emoji_list_view"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_below="@+id/emoji"
+            android:layout_marginTop="20dp"
+            android:numColumns="10"
+            android:padding="5dp"
+            android:horizontalSpacing="5dp"
+            android:verticalSpacing="5dp"
+            android:nestedScrollingEnabled="true"
+
+            />
+
+    </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

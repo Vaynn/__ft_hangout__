@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello_world">Hello Square World!</string>
+    <string name="cancel">Annuler</string>
+    <string name="name">Nom</string>
+    <string name="firstname">Prénom</string>
+    <string name="email">E-mail</string>
+    <string name="phone">Téléphone</string>
+    <string name="ring">Sonnerie</string>
+    <string name="title_add_contact">Nouveau Contact</string>
+    <string name="main_title">Contacts</string>
+    <string name="contacts"><![CDATA[< Contact]]></string>
+    <string name="ok">OK</string>
+    <string name="add_contact">Ajouter un nouveau contact</string>
+    <string name="set_pics">Modifier l\'image</string>
+    <string name="all_photos">Toutes les photos</string>
+    <string name="suggestions">Suggestions</string>
+    <string name="emoji">Emoji</string>
+    <string name="image_selection">Séléction Image</string>
+    <string name="modify">Modifier</string>
+    <string name="message">Message</string>
+    <string name="call">Appel</string>
+    <string name="delete_contact">Supprimer ce correspondant</string>
+    <string name="autumn">Automne</string>
+    <string name="spring">Printemps</string>
+    <string name="winter">Hiver</string>
+    <string name="summer">Eté</string>
+    <string name="call_permission_toast">Pour pouvoir passer un appel, accordez l\'autorisation dans le menu configuration de votre téléphone.</string>
+    <string name="my_contact">Moi</string>
+    <string name="error_cancel_contact">Une erreur s\'est produite impossible de supprimer le contact.</string>
+    <string name="send_message_bar">Envoyer un message</string>
+    <string name="sms_permission_toast">Pour pouvoir envoyer des sms , merci d\'accorder les droits dans le menu configuration de votre téléphone</string>
+    <string name="sms_error_sending">Le sms n\'a pu être enoyé</string>
+    <string name="check_ext_photo">FORMAT INVALIDE : (jpg, jpeg, gif, png)</string>
+    <string name="camera_permission_toast">Pour utiliser la caméra, merci d\'accorder les droits dans le menu configuration de votre téléphone.</string>
+    <string name="empty_contact_field">Vous devez au moins entrer un nom, un prénom ou un numéro de téléphone.</string>
+    <string name="name_field_validation">Le nom ne peut contenir que des lettres des espaces ou des \'-\'</string>
+    <string name="error_lenght_name"><![CDATA[Longueur > 30]]></string>
+    <string name="firstname_field_validation">Le prénom ne peut contenir que des lettres des espaces ou des \'-\'</string>
+    <string name="firstanme_length_validation"><![CDATA[Longueur > 20]]></string>
+    <string name="error_email_validation">Entrez un Email valide !</string>
+    <string name="phone_error_validation">Entrez un Numéro valide !</string>
+    <string name="address">Adresse</string>
+</resources>

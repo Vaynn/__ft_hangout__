@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name" translatable="false">ft_hangout</string>
+    <string name="letter_default_name" translatable="false">0</string>
+    <string name="title_activity_contact_sheet" translatable="false">ContactSheetActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="cancel">Cancel</string>
+    <string name="name">Name</string>
+    <string name="firstname">Firstname</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="ring">Ring</string>
+    <string name="title_add_contact">New Contact</string>
+    <string name="camera_photo_uri" translatable="false"></string>
+    <string name="main_title">Contacts</string>
+    <string name="title_activity_contact_file" translatable="false">ContactFileActivity</string>
+    <string name="contacts"><![CDATA[< Contacts]]></string>
+    <string name="title_activity_choose_pics_acitvity" translatable="false">choosePicsAcitvity</string>
+    <string name="title_activity_choose_pics" translatable="false">ChoosePicsActivity</string>
+    <string name="title_activity_sms" translatable="false">SmsActivity</string>
+    <string name="ok">OK</string>
+    <string name="add_contact">Add a new contact</string>
+    <string name="set_pics">Choose a new image</string>
+    <string name="all_photos">All photos</string>
+    <string name="suggestions">Suggestions</string>
+    <string name="emoji">Emoji</string>
+    <string name="image_selection">Image selection</string>
+    <string name="modify">Modify</string>
+    <string name="message">Message</string>
+    <string name="call">Call</string>
+    <string name="delete_contact">Delete this contact</string>
+    <string name="autumn">Autumn</string>
+    <string name="spring">Spring</string>
+    <string name="winter">Winter</string>
+    <string name="summer">Summer</string>
+    <string name="call_permission_toast">To be able to make a call, grant permission in the configuration menu of your phone.</string>
+    <string name="my_contact">Me</string>
+    <string name="error_cancel_contact">An error occurred, unable to delete contact.</string>
+    <string name="send_message_bar">Send a message</string>
+    <string name="sms_permission_toast">To be able to send sms, please grant the rights in the configuration menu of your phone</string>
+    <string name="sms_error_sending">Error sending message</string>
+    <string name="check_ext_photo">INVALID FORMAT : (jpg, jpeg, gif, png)</string>
+    <string name="camera_permission_toast">To use the camera, please grant the rights in the configuration menu of your phone.</string>
+    <string name="empty_contact_field">You must at least enter a first name, last name or phone number.</string>
+    <string name="name_field_validation">The name can only contain letters, spaces or \'- \'</string>
+    <string name="error_lenght_name"><![CDATA[Length> 30]]></string>
+    <string name="firstname_field_validation">The first name can only contain letters, spaces or \'- \'</string>
+    <string name="firstanme_length_validation"><![CDATA[Length > 20]]></string>
+    <string name="error_email_validation">Enter a valid Email !</string>
+    <string name="phone_error_validation">Entrer a valid phone number !</string>
+    <string name="address">Address</string>
+    <string name="map">Route</string>
+    <string name="address_field_validation">L\'adressse doit contenir seulement des lettres, des chiffres et des virgules</string>
+</resources>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddContactForm"
+    android:background="@color/black"
+    android:orientation="vertical"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        >
+
+    <TextView
+        android:id="@+id/new_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_add_contact"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/valid_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ok"
+        android:background="@android:color/transparent"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/metalicBlue"
+        android:onClick="addContact"
+        />
+
+        <ImageView
+            android:id="@+id/profil_pics"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/pics"
+            android:layout_below="@id/new_contact"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/add_picture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/set_pics"
+            android:textColor="@color/metalicBlue"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/profil_pics"
+            android:layout_marginTop="5dp"/>
+    </RelativeLayout>
+
+    <View style="@style/Divider"
+        android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/firstname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName|textCapWords"
+            android:hint="@string/firstname"
+            android:textColorHint="@color/grey"
+            android:textColor="@color/white"
+            android:layout_marginLeft="20dp"
+            />
+
+    <View style="@style/Divider"
+        android:layout_marginLeft="20dp"/>
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName|textCapWords"
+            android:hint="@string/name"
+            android:textColorHint="@color/grey"
+            android:textColor="@color/white"
+            android:layout_marginLeft="20dp"/>
+
+    <View style="@style/Divider"
+        android:layout_marginLeft="20dp"/>
+
+        <EditText
+            android:id="@+id/phoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:hint="@string/phone"
+            android:textColorHint="@color/grey"
+            android:textColor="@color/white"
+            android:layout_marginLeft="20dp"/>
+
+    <View style="@style/Divider"
+        android:layout_marginLeft="20dp"/>
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="@string/email"
+            android:textColorHint="@color/grey"
+            android:textColor="@color/white"
+            android:layout_marginLeft="20dp"/>
+
+    <View style="@style/Divider"
+        android:layout_marginLeft="20dp"/>
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPostalAddress"
+        android:hint="@string/address"
+        android:textColorHint="@color/grey"
+        android:textColor="@color/white"
+        android:layout_marginLeft="20dp"
+        />
+    <View style="@style/Divider"/>
+
+
+
+</LinearLayout>

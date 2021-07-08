@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".ContactFileActivity"
+    android:orientation="vertical"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        >
+
+    <TextView
+        android:id="@+id/modify_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/modify"
+        android:background="@android:color/transparent"
+        android:layout_alignParentRight="true"
+        android:textColor="#2962FF"
+
+        />
+
+    <ImageView
+        android:id="@+id/profil_pics"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/pics"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+        <TextView
+            android:id="@+id/prenom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/profil_pics"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/grey"
+            android:layout_marginRight="5dp"/>
+
+        <Button
+            android:id="@+id/message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/message"
+            android:drawableTint="#2962FF"
+            android:text="@string/message"
+            android:textColor="#2962FF"
+            style="@style/AppTheme.RoundedCornerMaterialButton"
+            android:layout_below="@id/prenom"
+            android:layout_toLeftOf="@id/appel"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"/>
+        <Button
+            android:id="@+id/appel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/appel"
+            android:drawableTint="#2962FF"
+            android:text="@string/call"
+            android:textColor="#2962FF"
+            style="@style/AppTheme.RoundedCornerMaterialButton"
+
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/prenom"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:padding="10dp"/>
+
+        <Button
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/email"
+            android:drawableTint="#2962FF"
+            android:text="@string/email"
+            android:textColor="#2962FF"
+            style="@style/AppTheme.RoundedCornerMaterialButton"
+            android:layout_toRightOf="@id/appel"
+            android:layout_below="@id/prenom"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:padding="10dp"
+            />
+        <Button
+            android:id="@+id/address_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/map"
+            android:drawableTint="#2962FF"
+            android:text="@string/map"
+            android:textColor="#2962FF"
+            style="@style/AppTheme.RoundedCornerMaterialButton"
+            android:layout_below="@id/prenom"
+            android:layout_toRightOf="@+id/email"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:padding="10dp"
+            android:layout_centerHorizontal="true"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/layout_rounded_bg">
+
+        <TextView
+            android:id="@+id/phone_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:drawablePadding="10dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:text="@string/phone"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:id="@+id/add_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/phone_title"
+            android:paddingTop="5dp"
+            android:src="@drawable/add"
+            android:visibility="gone"
+            app:tint="@color/metalicBlue" />
+
+        <TextView
+            android:id="@+id/phone_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/phone_title"
+            android:layout_alignParentLeft="true"
+            android:paddingLeft="10dp"
+            android:paddingBottom="5dp"
+
+            android:textColor="#2962FF" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layout_rounded_bg"
+        android:layout_margin="5dp"
+        >
+        <TextView
+            android:id="@+id/email_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/email"
+            android:textColor="@color/white"
+            android:layout_alignParentLeft="true"
+            android:drawablePadding="10dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            />
+        <ImageView
+            android:id="@+id/add_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/add"
+            app:tint="@color/metalicBlue"
+            android:layout_toRightOf="@id/email_title"
+            android:layout_marginLeft="10dp"
+            android:paddingTop="5dp"
+            android:visibility="gone"/>
+        <TextView
+            android:id="@+id/email_addresse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/metalicBlue"
+            android:layout_below="@id/email_title"
+            android:layout_alignParentLeft="true"
+
+            android:paddingLeft="10dp"
+            android:paddingBottom="5dp"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layout_rounded_bg"
+        android:layout_margin="5dp"
+        >
+        <TextView
+            android:id="@+id/address_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/address"
+            android:textColor="@color/white"
+            android:layout_alignParentLeft="true"
+            android:drawablePadding="10dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            />
+        <ImageView
+            android:id="@+id/add_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/add"
+            app:tint="@color/metalicBlue"
+            android:layout_toRightOf="@id/address_title"
+            android:layout_marginLeft="10dp"
+            android:paddingTop="5dp"
+            android:visibility="gone"/>
+        <TextView
+            android:id="@+id/address_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/metalicBlue"
+            android:layout_below="@id/address_title"
+            android:layout_alignParentLeft="true"
+
+            android:paddingLeft="10dp"
+            android:paddingBottom="5dp"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layout_rounded_bg"
+        android:layout_margin="5dp"
+        >
+        <TextView
+            android:id="@+id/delete_contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/delete_contact"
+            android:textColor="#D50000"
+            android:layout_alignParentLeft="true"
+            android:padding="10dp"
+
+            />
+
+    </RelativeLayout>
+</LinearLayout>
+</ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello_world">Hello Square World!</string>
+    <string name="cancel">キャンセルします</string>
+    <string name="name">苗字</string>
+    <string name="firstname">ファーストネーム</string>
+    <string name="email">Eメール</string>
+    <string name="phone">電話番号</string>
+    <string name="ring">警報</string>
+    <string name="title_add_contact">新しい連絡先</string>
+    <string name="main_title">連絡先</string>
+    <string name="contacts"><![CDATA[< 連絡先]]></string>
+    <string name="ok">検証</string>
+    <string name="add_contact">新しい連絡先を追加する</string>
+    <string name="set_pics">画像の編集</string>
+    <string name="all_photos">すべての写真</string>
+    <string name="suggestions">提案</string>
+    <string name="emoji">絵文字</string>
+    <string name="image_selection">画像の選択</string>
+    <string name="modify">編集</string>
+    <string name="message">メッセージ</string>
+    <string name="call">コール</string>
+    <string name="delete_contact">この通信相手を削除する</string>
+    <string name="autumn">秋</string>
+    <string name="spring">春</string>
+    <string name="winter">冬</string>
+    <string name="summer">夏</string>
+    <string name="call_permission_toast">電話をかけるには、電話の設定メニューで権限を付与してください。</string>
+    <string name="my_contact">私</string>
+    <string name="error_cancel_contact">連絡先を削除できないというエラーが発生しました。</string>
+    <string name="send_message_bar">メッセージを送ります</string>
+    <string name="sms_permission_toast">メッセージを送信できるようにするには、お使いの携帯電話の設定メニューで権限を付与してください</string>
+    <string name="sms_error_sending">メッセージを送信できませんでした</string>
+    <string name="check_ext_photo">無効な形式 : (jpg, jpeg, gif, png)</string>
+    <string name="camera_permission_toast">カメラを使用するには、お使いの携帯電話の設定メニューで権限を付与してください。</string>
+    <string name="empty_contact_field">少なくとも名、姓、または電話番号を入力する必要があります</string>
+    <string name="name_field_validation">名前には、文字、スペース、または \'-\'のみを含めることができます</string>
+    <string name="error_lenght_name"><![CDATA[長さ > 30]]></string>
+    <string name="firstname_field_validation">名には、文字、スペース、または \'-\'のみを含めることができます</string>
+    <string name="firstanme_length_validation"><![CDATA[長さ > 20]]></string>
+    <string name="error_email_validation">有効なメールアドレスを入力してください !</string>
+    <string name="phone_error_validation">有効な番号を入力してください！</string>
+    <string name="address">住所</string>
+</resources>

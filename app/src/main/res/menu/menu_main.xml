@@ -1,0 +1,25 @@
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/paint"
+        android:icon="@drawable/paint"
+        android:iconTint="@color/black"
+        app:showAsAction="ifRoom"
+        android:title="paint"
+
+        >
+        <menu android:id="@+id/sousmenu">
+            <item android:id="@+id/autumn"
+                android:title="@string/autumn"   />
+
+            <item android:id="@+id/spring"
+                android:title="@string/spring"  />
+            <item android:id="@+id/winter"
+                android:title="@string/winter"/>
+            <item android:id="@+id/summer"
+                android:title="@string/summer"/>
+        </menu>
+    </item>
+
+</menu>

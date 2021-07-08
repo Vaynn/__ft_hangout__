@@ -1,0 +1,6 @@
+<resources>
+    <string name="hello_world">Hello Round World!</string>
+    <string name="app_name">ft_hangout</string>
+    <string name="letter_default_name">0</string>
+    <string name="title_activity_contact_sheet">ContactSheetActivity</string>
+</resources>
